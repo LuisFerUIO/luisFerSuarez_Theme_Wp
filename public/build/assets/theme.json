@@ -1,7 +1,7 @@
 {
   "__processed__": "This file was generated using Vite",
   "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "version": 3,
+  "version": 2,
   "settings": {
     "layout": {
       "contentSize": "48rem"
@@ -1345,6 +1345,12 @@
           "size": "8rem"
         }
       ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "#fff",
+      "background": "#000"
     }
   }
 }
