@@ -59,6 +59,3 @@ collect(['setup', 'filters'])
         }
     });
 
-add_action('after_setup_theme', function () {
-    add_editor_style('resources/css/editor.css');
-});
