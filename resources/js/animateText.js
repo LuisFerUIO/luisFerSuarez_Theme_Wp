@@ -79,7 +79,7 @@ export function animateText() {
         return;
       }
 
-      st = new SplitText('p', { type: 'chars', charsClass: 'char' });
+      st = new SplitText('div.entry-summary', { type: 'chars', charsClass: 'char' });
       st.chars.forEach((char) => (char.orig = char.textContent));
 
       window.addEventListener('resize', handleResize);
