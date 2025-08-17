@@ -29,6 +29,7 @@ body {
     position: absolute;
     inset: 0;
     filter: brightness(50%);
+    z-index: -1;
   }
 }
 
