@@ -75,7 +75,7 @@ export function animateText() {
     init() {
       const paragraphs = document.querySelector("div.entry-summary");
       if (paragraphs.length === 0) {
-        console.warn('No se encontraron etiquetas <p> en el DOM.');
+        console.warn('No se encontraron clases div.entry-summary en el DOM.');
         return;
       }
 
