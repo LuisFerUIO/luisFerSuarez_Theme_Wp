@@ -5,8 +5,12 @@ import.meta.glob([
 
 import domReady from '@roots/sage/client/dom-ready';
 import { animateText } from './animateText';
+import { SplitText } from 'gsap/SplitText';
+import gsap from 'gsap';
 
-domReady(async () => {
+gsap.registerPlugin(SplitText);
+
+domReady(() => {
   const animation = animateText();
   animation.init();
 });
