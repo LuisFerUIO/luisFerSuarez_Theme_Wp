@@ -3,4 +3,9 @@ import.meta.glob([
   '../fonts/**',
 ]);
 
-import "./animateText.js";
+import domReady from '@roots/sage/client/dom-ready';
+import { animateText } from './animateText';
+
+domReady(async () => {
+  animateText();
+});

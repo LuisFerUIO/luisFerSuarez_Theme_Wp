@@ -1,3 +1,5 @@
+export function animateText() {
+
 let textRevealRadius = 100;
 const textRevealPercent = 0.17; // percent of the viewport width, used to size textRevealRadius
 
@@ -75,3 +77,5 @@ function init() {
 }
 
 init();
+
+}
