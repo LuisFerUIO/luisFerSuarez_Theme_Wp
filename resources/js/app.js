@@ -3,3 +3,4 @@ import.meta.glob([
   '../fonts/**',
 ]);
 
+import "./animateText.js.js";
