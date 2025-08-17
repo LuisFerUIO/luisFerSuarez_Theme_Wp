@@ -73,8 +73,7 @@ export function animateText() {
 
   return {
     init() {
-      //const paragraphs = document.querySelectorAll('p');
-      const paragraphs = document.querySelector(".entry-summary");;
+      const paragraphs = document.querySelector("div.entry-summary");
       if (paragraphs.length === 0) {
         console.warn('No se encontraron etiquetas <p> en el DOM.');
         return;
