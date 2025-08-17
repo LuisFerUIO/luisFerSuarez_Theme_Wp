@@ -1,3 +1,3 @@
 <div class="pagina_web">
-<h1>Páginas Web Quito</h1>
+<p>Páginas Web Quito</p>
 </div>
