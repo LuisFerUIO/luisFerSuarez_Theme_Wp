@@ -1,7 +1,9 @@
 import {gsap} from "gsap";
 import {SplitText} from "gsap/SplitText";
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 
 gsap.registerPlugin(SplitText);
+gsap.registerPlugin(SplitText, ScrambleTextPlugin);
 
 export function animateText() {
 
