@@ -51,6 +51,7 @@
   "version": 2,
   "styles": {
     "color": {
+      "text": "#fff",
       "background": "#000"
     }
   }

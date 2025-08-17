@@ -1349,6 +1349,7 @@
   },
   "styles": {
     "color": {
+      "text": "#fff",
       "background": "#000"
     }
   }
