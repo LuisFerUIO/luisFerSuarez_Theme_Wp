@@ -161,7 +161,7 @@ add_action('widgets_init', function () {
  */
 
 add_action('wp_enqueue_scripts', function () {
-    if (is_front_page()) {
+    if (is_home_page()) {
         wp_enqueue_script(
             'sage/animateText',
             asset('scripts/animateText.js')->uri(),
