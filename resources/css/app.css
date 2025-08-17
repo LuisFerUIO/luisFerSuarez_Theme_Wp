@@ -32,7 +32,6 @@ body {
 }
 
 #app {
-  margin: 15vw;
   max-width: 800px;
   font-family: "Space Mono", monospace;
   font-weight: 400;
