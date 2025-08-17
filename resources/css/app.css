@@ -22,7 +22,7 @@ body {
   &::before {
     content: '';
     /*background-color: #000;*/
-    background-image: url("https://assets.codepen.io/37111/cat-eyes.jpg");
+    /*background-image: url("https://assets.codepen.io/37111/cat-eyes.jpg");*/
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
