@@ -155,7 +155,7 @@ add_action('widgets_init', function () {
 });
 
 /**
- * JS animation for the home page.
+ * JS animation 'animateText.js' for the home page.
  *
  *
  */
@@ -163,7 +163,7 @@ add_action('widgets_init', function () {
 add_action('wp_enqueue_scripts', function () {
     if (is_front_page()) {
         wp_enqueue_script(
-            'sage/home',
+            'sage/animateText',
             asset('scripts/animateText.js')->uri(),
             ['sage/app'],
             null,
