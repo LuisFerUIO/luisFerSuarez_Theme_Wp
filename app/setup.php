@@ -153,3 +153,21 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+/**
+ * JS animation for the home page.
+ *
+ *
+ */
+
+add_action('wp_enqueue_scripts', function () {
+    if (is_front_page()) {
+        wp_enqueue_script(
+            'sage/home',
+            asset('scripts/animateText.js')->uri(),
+            ['sage/app'],
+            null,
+            true
+        );
+    }
+}, 100);
