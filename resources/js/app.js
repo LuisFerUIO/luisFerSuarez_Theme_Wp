@@ -4,11 +4,11 @@ import.meta.glob([
 ]);
 
 import domReady from '@roots/sage/client/dom-ready';
-import gsap from 'gsap';
+import { gsap } from 'gsap';
 import { SplitText } from 'gsap/SplitText';
 import { animateText } from './animateText';
 
-gsap.registerPlugin(SplitText);
+
 
 domReady(() => {
   const animation = animateText();

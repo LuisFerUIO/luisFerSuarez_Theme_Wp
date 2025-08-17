@@ -1,4 +1,10 @@
+import {gsap} from "gsap";
+import {SplitText} from "gsap/SplitText";
+
+gsap.registerPlugin(SplitText);
+
 export function animateText() {
+
   let textRevealRadius = 100;
   const textRevealPercent = 0.17; // porcentaje del ancho del viewport
   const upperAndLowerCase = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
