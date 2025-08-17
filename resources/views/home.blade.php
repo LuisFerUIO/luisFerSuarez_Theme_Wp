@@ -3,7 +3,7 @@
 @section('content')
   @include('partials.page-header')
 
-
+  @include('partials.paginas-web')
 
   @if (! have_posts())
     <x-alert type="warning">
