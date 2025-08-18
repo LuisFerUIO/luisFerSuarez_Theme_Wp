@@ -5,6 +5,10 @@
 
   @include('partials.paginas-web')
 
+  @if (!is_home() && !is_archive())
+    @include('partials.entry-meta')
+  @endif
+
   @include('partials.page-header')
 
    @if (! have_posts())
