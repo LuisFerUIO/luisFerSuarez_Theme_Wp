@@ -49,3 +49,7 @@ body {
 article{
   margin: clamp(15px, 4vw, 60px) 0;
 }
+label[for="comment"] {
+  display: block;
+  margin-bottom: 5px; /* espacio opcional */
+}
