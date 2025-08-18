@@ -32,7 +32,7 @@ body {
   }
 }
 
-.entry-summary {
+.entry-summary, .main {
   max-width: 800px;
   font-family: "Space Mono", monospace;
   font-weight: 400;
