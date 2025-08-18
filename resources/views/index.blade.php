@@ -3,6 +3,11 @@
 @section('content')
   @include('partials.page-header')
 
+  @if (!is_home() && !is_archive())
+    @include('partials.entry-meta')
+  @endif
+
+
   @if (! have_posts())
     <x-alert type="warning">
       {!! __('Sorry, no results were found.', 'sage') !!}
