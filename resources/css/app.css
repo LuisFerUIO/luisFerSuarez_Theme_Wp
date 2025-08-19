@@ -4,6 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
+@layer base {
+  * {
+    margin: revert;
+  }
+}
+
+
 html,
 body {
   /*margin: 0;*/
