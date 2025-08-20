@@ -5,7 +5,7 @@
 
   @include('partials.paginas-web')
 
-  @include('partials.page-header')
+{{--  @include('partials.page-header')--}}
 
    @if (! have_posts())
     <x-alert type="warning">

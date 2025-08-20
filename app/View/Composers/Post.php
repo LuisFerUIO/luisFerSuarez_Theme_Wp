@@ -32,6 +32,7 @@ class Post extends Composer
             }
 
             return __('Latest Posts', 'sage');
+
         }
 
         if (is_archive()) {
