@@ -9,4 +9,9 @@ import { animateText } from './animateText';
 domReady(() => {
   const animation = animateText();
   animation.init();
+
+  const  animationBackground = animateBack();
+  animationBackground.init();
+
+
 });
