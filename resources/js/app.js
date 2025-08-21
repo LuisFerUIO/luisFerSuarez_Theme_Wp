@@ -5,13 +5,13 @@ import.meta.glob([
 
 import domReady from '@roots/sage/client/dom-ready';
 import { animateText } from './animateText';
+import { animateBack } from "./animateBackground";
 
 domReady(() => {
   const animation = animateText();
   animation.init();
 
-  const  animationBackground = animateBack();
-  animationBackground.init();
+  animateBack();
 
 
 });

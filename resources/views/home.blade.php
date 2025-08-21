@@ -3,6 +3,7 @@
 
 @section('content')
 
+  @include('partials.background')
   @include('partials.paginas-web')
 
 {{--  @include('partials.page-header')--}}

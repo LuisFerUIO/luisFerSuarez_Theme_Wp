@@ -1,14 +1,14 @@
-import {gsap} from "gsap";
-import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {ScrollSmoother} from "gsap/ScrollSmoother";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
-import {SplitText} from "gsap/SplitText";
+import { SplitText } from "gsap/SplitText";
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollSmoother);
 gsap.registerPlugin(SplitText, ScrambleTextPlugin);
 
-export function animateBack (){
-
+export function animateBack() {
   // create the smooth scroller FIRST!
   const smoother = ScrollSmoother.create({
     wrapper: "#wrapper",
@@ -44,11 +44,5 @@ export function animateBack (){
     }
   });
 
-// 💚 This just adds the GSAP link to this pen, don't copy this bit
-  import { GSAPInfoBar } from "https://codepen.io/GreenSock/pen/vYqpyLg.js";
-  new GSAPInfoBar({
-    link: "https://gsap.com/docs/v3/Plugins/ScrollSmoother/",
-    position: "top"
-  });
-// 💚 Happy tweening!
+  // 💚 GSAPInfoBar demo removed for production
 }
