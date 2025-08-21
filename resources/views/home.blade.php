@@ -3,10 +3,11 @@
 
 @section('content')
 
-  @include('partials.background')
-  @include('partials.paginas-web')
+  {{--   @include('partials.background') --}}
 
-{{--  @include('partials.page-header')--}}
+    @include('partials.paginas-web')
+
+  {{--  @include('partials.page-header')--}}
 
    @if (! have_posts())
     <x-alert type="warning">
