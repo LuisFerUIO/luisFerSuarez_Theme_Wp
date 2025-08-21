@@ -11,7 +11,7 @@ domReady(() => {
   const animation = animateText();
   animation.init();
 
-  animateBack();
+  // animateBack();
 
 
 });
