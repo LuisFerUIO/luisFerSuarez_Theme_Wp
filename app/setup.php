@@ -148,11 +148,14 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-primary',
     ] + $config);
 
-// Footer Columns
     for ($i = 1; $i <= 4; $i++) {
         register_sidebar([
-                'name'          => __('Footer Column ', 'sage') . $i,
-                'id'            => 'sidebar-footer-' . $i,
-            ] + $config);
+            'name'          => __('Footer Column ', 'sage') . $i,
+            'id'            => 'sidebar-footer-' . $i,
+            'before_widget' => '<section class="widget %1$s %2$s">',
+            'after_widget'  => '</section>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>',
+        ]);
     }
 });
