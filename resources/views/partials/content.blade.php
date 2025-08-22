@@ -9,7 +9,7 @@
     @include('partials.entry-meta')
   </header>
 
-  <div class="entry-summary">
+  <div class="border-t border-l border-red-500 rounded-tl-md p-4 entry-summary">
     @php(the_excerpt())
   </div>
 </article>
