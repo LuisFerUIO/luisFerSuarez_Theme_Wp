@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
   </head>
 
-  <body class="min-h-screen bg-[#111] [background-image:linear-gradient(#222_1px,transparent_1px),linear-gradient(90deg,#222_1px,transparent_1px)] [background-size:24px_24px]" @php(body_class())>
+  <body class="min-h-screen bg-[#111] [background-image:radial-gradient(#555_2px,transparent_2px)] [background-size:32px_32px]" @php(body_class())>
     @php(wp_body_open())
 
     <div id="app">
