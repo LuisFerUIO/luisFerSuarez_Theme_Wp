@@ -8,4 +8,5 @@
       @endif
     @endfor
   </div>
+  <p>© 2025 LuisFerSuarez.com All rights reserved.</p>
 </footer>
