@@ -83,3 +83,23 @@ textarea:focus {
   border-color: #fff; /* Mantener el borde blanco al enfocar */
   box-shadow: 0 0 0 1px #fff; /* Opcional: efecto sutil al enfocar */
 }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+  margin-right: 20px; /* Espacio entre los ítems del menú */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
