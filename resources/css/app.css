@@ -83,6 +83,10 @@ textarea:focus {
   border-color: #fff; /* Mantener el borde blanco al enfocar */
   box-shadow: 0 0 0 1px #fff; /* Opcional: efecto sutil al enfocar */
 }
+nav {
+  margin-top:20px;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
